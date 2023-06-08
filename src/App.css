@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: rgb(160, 158, 158);
 }
 
 .App-logo {
@@ -36,3 +37,65 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container{
+  text-align: center;
+  color: grey;
+  padding: 25px;
+  margin: 98px 0px;
+}
+
+.quantity{
+  width: 120px;
+  height: 36px;
+  margin: 41px 0 41px 625px;
+  padding: 0px ;
+  border-radius: 3px;
+  border-top: 2px solid #dee0ee;
+  border-bottom: 2px solid #dee0ee;
+  border-left: 2px solid #dee0ee;
+  border-right: 2px solid #dee0ee;
+  background-color: #dee0ee;
+  color: rgb(15, 96, 177);
+  font-weight: 1200;
+}
+
+.quantity_minus{
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0 3px 3px 0;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+
+
+.quantity_plus{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 13px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  
+}
+
+.quantity_input{
+  width: 42px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top: 2px solid #dee0ee;
+  border-bottom: 2px solid #dee0ee;
+  border-left: 2px solid #dee0ee;
+  border-right: 2px solid #dee0ee;
+  background: #fff;
+  color: #8184a1;
+}
+
+/* a:hover {
+  padding: 4px;
+  margin-left: 13px;
+  background-color: #8184a1;
+} */
